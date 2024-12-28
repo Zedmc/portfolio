@@ -15,23 +15,34 @@ export const DATA = {
   avatarUrl: "/me.png",
   skills: [
     "React",
-    "Vue",
+    "Vue.js",
     "Next.js",
     "Typescript",
     "Node.js",
     "Express.js",
+    "HTML",
+    "CSS",
     "PostgreSQL",
     "MongoDB",
     "Firebase",
+    "Stripe",
     "Tailwind CSS",
     "Styled Components",
+    "Zustand",
+    "Jotai",
+    "Next-Intl",
     "WordPress",
     "Bubble.io",
     "Webflow",
     "Figma",
     "Framer",
     "Framer Motion",
+    "Git",
+    "GitHub",
+    "Canva",
+    "Trello",
   ],
+
   navbar: [{ href: "/", icon: HomeIcon, label: "Home" }],
   contact: {
     email: "zie.mc@hotmail.com",
@@ -76,77 +87,41 @@ export const DATA = {
 
   work: [
     {
+      company: "Kolyya",
+      href: "https://atomic.finance",
+      badges: [],
+      location: "Montréal, QC - Remote",
+      title: "Frontend - Software Developer Intern",
+      logoUrl: "/kolyya.png",
+      start: "October 2024",
+      end: "December 2024",
+      description:
+        "Spearheaded authentication implementation on the client side using secure and efficient methodologies, boosting security by 25%. Optimized UI/UX, improving responsiveness and usability, resulting in a 20% boost in user satisfaction and engagement. Delivered features on schedule, improving team efficiency by 15% through Agile practices. Collaborated with C# developers to integrate backend functionality and ensure seamless full-stack implementation.",
+    },
+    {
       company: "Édulogique",
       href: "https://atomic.finance",
       badges: [],
-      location: "Remote",
-      title: "Software Developer Intern",
+      location: "Montréal, QC - Remote",
+      title: "Frontend - Software Developer Intern",
       logoUrl: "/edulogique.png",
       start: "June 2024",
       end: "August 2024",
       description:
-        "Modernized and developed Police demo software using Vuejs and Nodels. Integrated RESTful APls and third-party services, ensuring seamless data flow between frontend and backend systems. Actively participated in SCRUM ceremonies, including sprint planning, sprint reviews, and retrospectives, contributing to continuous improvement in the Agile development process.\n\nCollaborated closely with product managers and designers to ensure alignment between design vision and technical implementation. Worked closely with full stack developers to implement and integrate new features. Fixed bugs and Improved design patterns for seamless integration. Adhered to clean code architecture principles.",
+        "Modernized and developed Police demo software with a responsive Vue.js frontend and a scalable Node.js backend. Integrated RESTful APIs and third-party services, ensuring seamless data flow between frontend and backend systems. Participated in SCRUM ceremonies, including sprint planning, reviews, and retrospectives, driving continuous improvement. Collaborated closely with product managers and designers to ensure alignment between design vision and technical implementation. Resolved bugs and optimized design patterns to ensure seamless integration and enhanced system performance. Followed clean code architecture principles to maintain scalable, maintainable, and efficient code.",
     },
     {
       company: "Advanis",
-      badges: [],
       href: "https://advanis.net",
+      badges: [],
       location: "Remote",
-      title: "Telephone research Interviewer",
+      title: "Call Center - Telephone Research Interviewer",
       logoUrl: "/advanis.png",
       start: "May 2024",
       end: "Present",
       description:
-        "Conducted structured telephone interviews to gather data on consumer preferences and opinions. Implemented survey protocols and maintained compliance with research ethics and confidentiality guidelines.\n\nAdapted communication style to engage diverse respondents and maximize survey completion rates. Upheld survey scripts and adapted questioning techniques to ensure clarity and accuracy of responses.",
+        "Conducted structured telephone interviews for market research, achieving a 95% completion rate. Ensured compliance with research ethics and survey protocols, maintaining data accuracy. Adapted communication strategies, boosting survey completion by 10% and improving response accuracy. Managed concurrent surveys, ensuring 100% on-time completion and providing timely feedback. Suggested process improvements, reducing call time by 15% and enhancing script structure.",
     },
-    // {
-    // 	company: "Nvidia",
-    // 	href: "https://nvidia.com/",
-    // 	badges: [],
-    // 	location: "Santa Clara, CA",
-    // 	title: "Software Engineer",
-    // 	logoUrl: "/nvidia.png",
-    // 	start: "January 2020",
-    // 	end: "April 2020",
-    // 	description:
-    // 		"Architected and wrote the entire MVP of the GeForce Now Cloud Gaming internal admin and A/B testing dashboard using React, Redux, TypeScript, and Python.",
-    // },
-    // {
-    // 	company: "Splunk",
-    // 	href: "https://splunk.com",
-    // 	badges: [],
-    // 	location: "San Jose, CA",
-    // 	title: "Software Engineer",
-    // 	logoUrl: "/splunk.svg",
-    // 	start: "January 2019",
-    // 	end: "April 2019",
-    // 	description:
-    // 		"Co-developed a prototype iOS app with another intern in Swift for the new Splunk Phantom security orchestration product (later publicly demoed and launched at .conf annual conference in Las Vegas). Implemented a realtime service for the iOS app in Django (Python) and C++; serialized data using protobufs transmitted over gRPC resulting in an approximate 500% increase in data throughput.",
-    // },
-    // {
-    // 	company: "Lime",
-    // 	href: "https://li.me/",
-    // 	badges: [],
-    // 	location: "San Francisco, CA",
-    // 	title: "Software Engineer",
-    // 	logoUrl: "/lime.svg",
-    // 	start: "January 2018",
-    // 	end: "April 2018",
-    // 	description:
-    // 		"Proposed and implemented an internal ruby API for sending/receiving commands to scooters over LTE networks. Developed a fully automated bike firmware update system to handle asynchronous firmware updates of over 100,000+ scooters worldwide, and provide progress reports in real-time using React, Ruby on Rails, PostgreSQL and AWS EC2 saving hundreds of developer hours.",
-    // },
-    // {
-    // 	company: "Mitre Media",
-    // 	href: "https://mitremedia.com/",
-    // 	badges: [],
-    // 	location: "Toronto, ON",
-    // 	title: "Software Engineer",
-    // 	logoUrl: "/mitremedia.png",
-    // 	start: "May 2017",
-    // 	end: "August 2017",
-    // 	description:
-    // 		"Designed and implemented a robust password encryption and browser cookie storage system in Ruby on Rails. Leveraged the Yahoo finance API to develop the dividend.com equity screener",
-    // },
   ],
   education: [
     {
@@ -173,7 +148,7 @@ export const DATA = {
       dates: "January 2024 - February 2024",
       active: true,
       description:
-        "Developed a comprehensive eCommerce website using React, featuring a robust shopping cart and responsive design for optimal smartphone and tablet compatibility. Utilized React libraries, including React Router, Formik, Yup for validation, and the Context API for state management.",
+        "An eCommerce platform for audiophiles, offering a wide range of audio products with a seamless shopping experience.",
       technologies: [
         "React",
         "CSS",
@@ -200,12 +175,63 @@ export const DATA = {
       video: "/audiophile-video.mp4",
     },
     {
+      title: "Axiomize Web Design Agency",
+      href: "https://axiomize.digital/",
+      dates: "November 2024",
+      active: true,
+      description:
+        "A web design agency offering cutting-edge digital experiences with a focus on responsive design and SEO optimization.",
+      technologies: [
+        "Next.js",
+        "TypeScript",
+        "TailwindCSS",
+        "Next-Intl",
+        "Responsive Design",
+        "Dark Mode",
+        "SEO Optimization",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://axiomize.digital/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "/axiomize-video.mp4",
+    },
+    {
+      title: "Luminor Luxury Cleaning Company",
+      href: "https://luminor.vercel.app",
+      dates: "December 2024",
+      active: true,
+      description:
+        "A luxury cleaning service website providing premium cleaning services with Next-Intl Language support and optimized performance.",
+      technologies: [
+        "Next.js",
+        "TailwindCSS",
+        "Responsive Design",
+        "Next-Intl Language Support",
+        "Performance Optimization",
+        "Resend",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://luminor.vercel.app",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "/luminor-video.mp4",
+    },
+    {
       title: "Tomato - Food Ordering Application",
       href: "https://food-delivery-app-frontend-yien.onrender.com/",
       dates: "April 2024 - May 2024",
       active: true,
       description:
-        "Built a responsive eCommerce platform with React, Stripe integration, and RESTful APIs using Express.js and Node.js for orders and real-time updates. Managed data with MongoDB and developed an admin page for managing food listings and delivery. Implemented secure authentication with JWT for session management.",
+        "A platform for users to browse, order, and pay for food, with features for restaurant management and real-time order tracking.",
       technologies: [
         "React",
         "CSS",
@@ -232,7 +258,7 @@ export const DATA = {
       dates: "November 2023",
       active: true,
       description:
-        "Developed a user-friendly multi-step form using JavaScript to enhance the user experience by breaking lengthy forms into manageable steps. Implemented a dynamic navigation system that allows users to move between steps, with validation checks to ensure complete submissions and improve data accuracy.",
+        "A multi-step form designed to improve user experience by breaking long forms into smaller, manageable sections.",
       technologies: ["HTML", "CSS", "JavaScript"],
       links: [
         {
@@ -250,7 +276,7 @@ export const DATA = {
       dates: "December 2023",
       active: true,
       description:
-        "Created a responsive React web application that dynamically displays country flags based on user input, utilizing a country flag API. Integrated RESTful APIs with Fetch to retrieve flags and related information, and implemented a search feature for quick country lookups by name or region.",
+        "A web app that allows users to search and view country flags and related information based on their location or country name.",
       technologies: [
         "React",
         "CSS",
@@ -275,6 +301,7 @@ export const DATA = {
       video: "country-video.mp4",
     },
   ],
+
   // hackathons: [
   // 	{
   // 		title: "Hack Western 5",
