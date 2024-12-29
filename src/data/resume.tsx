@@ -143,38 +143,6 @@ export const DATA = {
   ],
   projects: [
     {
-      title: "Audiophile E-Commerce Website",
-      href: "https://e-commerce-audiophile.onrender.com/",
-      dates: "January 2024 - February 2024",
-      active: true,
-      description:
-        "An eCommerce platform for audiophiles, offering a wide range of audio products with a seamless shopping experience.",
-      technologies: [
-        "React",
-        "CSS",
-        "Formik",
-        "React Context API",
-        "REST API Integration",
-        "Yup Validation",
-        "Framer Motion",
-        "React Router",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://e-commerce-audiophile.onrender.com/",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/Zedmc/E-Commerce-Audiophile",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "",
-      video: "/audiophile-video.mp4",
-    },
-    {
       title: "Axiomize Web Design Agency",
       href: "https://axiomize.digital/",
       dates: "November 2024",
@@ -211,7 +179,7 @@ export const DATA = {
         "Next.js",
         "TailwindCSS",
         "Responsive Design",
-        "Next-Intl Language Support",
+        "Next-Intl",
         "Performance Optimization",
         "Resend",
       ],
@@ -224,6 +192,38 @@ export const DATA = {
       ],
       image: "",
       video: "/luminor-video.mp4",
+    },
+    {
+      title: "Audiophile E-Commerce Website",
+      href: "https://e-commerce-audiophile.onrender.com/",
+      dates: "January 2024 - February 2024",
+      active: true,
+      description:
+        "An eCommerce platform for audiophiles, offering a wide range of audio products with a seamless shopping experience.",
+      technologies: [
+        "React",
+        "CSS",
+        "Formik",
+        "React Context API",
+        "REST API Integration",
+        "Yup Validation",
+        "Framer Motion",
+        "React Router",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://e-commerce-audiophile.onrender.com/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/Zedmc/E-Commerce-Audiophile",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "/audiophile-video.mp4",
     },
     {
       title: "Tomato - Food Ordering Application",
